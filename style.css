@@ -3,9 +3,62 @@
    del cálculo del ancho de la caja.
  */
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Gluten:wght@300&family=REM:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=REM:wght@500&display=swap');
+
+
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+body {
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: grid;
+    place-content: center;
+    width: 350px;
+    height: 250px;
+    background: #373ad5;
+    background: #00cfff;
+    background: #010355;
+
+}
+
+.contaniner-effect {
+    background: #010355;
+    width: 230px;
+    /* height: 80px; */
+    height: 100px;
+    display: grid;
+    place-content: center;
+    border: 1px solid white;
+}
+
+button {
+    background: #010355;
+    color: white;
+    width: 210px;
+    height: 80px;
+    font-family: 'ADLaM Display', cursive;
+    font-size: larger;
+    border: none;
+}
+
+button:hover {
+    border-radius: 15px;
+    border-left: 3px solid #00cfff;
+    border-right: 3px solid #00cfff;
+}
+
+.contaniner-effect:hover {
+    background: #ffffff1c;
+    border: none;
+    height: 80px;
+}
